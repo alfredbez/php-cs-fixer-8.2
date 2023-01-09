@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ccb1dfa907a29a63bf356f0428dbcde",
+    "content-hash": "17fb837b8f8318982607b54b84d8ad67",
     "packages": [],
     "packages-dev": [
         {
@@ -424,16 +424,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "dev-codito/6604-support-for-readonly-classes",
+            "version": "dev-php82-readonly-class-token-transformer",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Wirone/PHP-CS-Fixer.git",
-                "reference": "69b31d11639dd54acc27c6a34cd1ca7f56023cb6"
+                "url": "https://github.com/mateuszsip/PHP-CS-Fixer.git",
+                "reference": "3120ec7b4516d846f062d75ab4025bcfbcce72ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Wirone/PHP-CS-Fixer/zipball/69b31d11639dd54acc27c6a34cd1ca7f56023cb6",
-                "reference": "69b31d11639dd54acc27c6a34cd1ca7f56023cb6",
+                "url": "https://api.github.com/repos/mateuszsip/PHP-CS-Fixer/zipball/3120ec7b4516d846f062d75ab4025bcfbcce72ca",
+                "reference": "3120ec7b4516d846f062d75ab4025bcfbcce72ca",
                 "shasum": ""
             },
             "require": {
@@ -504,7 +504,7 @@
             ],
             "description": "A tool to automatically fix PHP code style",
             "support": {
-                "source": "https://github.com/Wirone/PHP-CS-Fixer/tree/codito/6604-support-for-readonly-classes"
+                "source": "https://github.com/mateuszsip/PHP-CS-Fixer/tree/php82-readonly-class-token-transformer"
             },
             "funding": [
                 {
@@ -512,7 +512,7 @@
                     "url": "https://github.com/keradus"
                 }
             ],
-            "time": "2023-01-09T15:57:45+00:00"
+            "time": "2023-01-09T00:12:21+00:00"
         },
         {
             "name": "psr/cache",
@@ -2088,7 +2088,14 @@
             "time": "2022-12-14T16:11:27+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "package": "friendsofphp/php-cs-fixer",
+            "version": "dev-php82-readonly-class-token-transformer",
+            "alias": "3.13.2",
+            "alias_normalized": "3.13.2.0"
+        }
+    ],
     "minimum-stability": "stable",
     "stability-flags": {
         "friendsofphp/php-cs-fixer": 20

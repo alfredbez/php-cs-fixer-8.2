@@ -2,10 +2,10 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/Wirone/PHP-CS-Fixer.git"
+            "url": "https://github.com/mateuszsip/PHP-CS-Fixer.git"
         }
     ],
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "dev-codito/6604-support-for-readonly-classes"
+        "friendsofphp/php-cs-fixer": "dev-php82-readonly-class-token-transformer as 3.13.2"
     }
 }
